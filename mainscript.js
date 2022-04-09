@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
       change()
     }
 });
-//tasjk
+
 function change() {
 if (getCookie("theme") == "light") {
   const favicon = document.querySelector('link[rel="icon"]')

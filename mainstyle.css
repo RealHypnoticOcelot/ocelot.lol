@@ -122,11 +122,11 @@ button {
     font-size: 20px;
     border-radius: 12px;
     transition: 0.2s;
-    max-height: 50px;
 }
 
 .btnicon {
-    height: fit-content;
+    height: 50px;
+    border-radius: 10px;
 }
 
 input:hover {

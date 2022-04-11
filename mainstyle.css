@@ -126,7 +126,7 @@ button {
 }
 
 .btnicon {
-    max-height: 100%;
+    height: fit-content;
 }
 
 input:hover {

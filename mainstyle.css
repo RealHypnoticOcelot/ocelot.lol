@@ -121,14 +121,15 @@ input {
     width: 80%;
     font-size: 20px;
     border-radius: 12px;
+    transition: 0.2s;
 }
 
 input:hover {
-    filter:brightness(2px);
+    filter:brightness(110%);
 }
 
 input:active {
-    filter:brightness(-10px);
+    filter:brightness(90%);
 }
 
 .output {

@@ -123,6 +123,14 @@ input {
     border-radius: 12px;
 }
 
+input:hover {
+    filter:brightness(2px);
+}
+
+input:active {
+    filter:brightness(-10px);
+}
+
 .output {
     width: fit-content;
     min-width: 15%;

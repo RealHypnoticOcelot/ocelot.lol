@@ -248,7 +248,8 @@ background-color: white;
         border-radius: 20%;
         position: fixed;
         top: 2%;
-        left: 50%;
+        margin-left: auto;
+        margin-right: auto;
         opacity: 100%;
     }
 }

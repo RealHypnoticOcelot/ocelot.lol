@@ -122,6 +122,7 @@ button {
     font-size: 20px;
     border-radius: 12px;
     transition: 0.2s;
+    align-items: center;
 }
 
 .btnicon {
@@ -130,7 +131,7 @@ button {
 }
 
 .btntext {
-    display: flex;
+    padding-left: 10px;
 }
 
 input:hover {
@@ -279,7 +280,7 @@ background-color: white;
 }
 
 .buttonload {
-    display: inline-block;
+    display: flex;
     align-self: flex-start;
     animation: loadbuttons ease 0.8s;
     animation-iteration-count: 1;

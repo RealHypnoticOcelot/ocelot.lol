@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
     if (theme != "") {
       change()
     } else {
-      setCookie("theme", "", 365);
+      setCookie("theme", "dark", 365);
       change()
     }
 });

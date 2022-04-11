@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
     if (theme != "") {
       change()
     } else {
-      setCookie("theme", "light", 365);
+      setCookie("theme", "", 365);
       change()
     }
 });
@@ -14,9 +14,6 @@ if (getCookie("theme") == "light") {
   const favicon = document.querySelector('link[rel="icon"]')
   favicon.href = "/assets/icon_circle_dark.png"
 } else if (getCookie("theme") == "dark") {
-  const favicon = document.querySelector('link[rel="icon"]')
-  favicon.href = "/assets/icon_circle.png"
-} else if (getCookie("theme") == "") {
   const favicon = document.querySelector('link[rel="icon"]')
   favicon.href = "/assets/icon_circle.png"
 }

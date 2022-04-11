@@ -16,6 +16,9 @@ if (getCookie("theme") == "light") {
 } else if (getCookie("theme") == "dark") {
   const favicon = document.querySelector('link[rel="icon"]')
   favicon.href = "/assets/icon_circle.png"
+} else if (getCookie("theme") == "") {
+  const favicon = document.querySelector('link[rel="icon"]')
+  favicon.href = "/assets/icon_circle.png"
 }
 }
 

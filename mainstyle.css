@@ -122,6 +122,7 @@ button {
     font-size: 20px;
     border-radius: 12px;
     transition: 0.2s;
+    max-height: 50px;
 }
 
 .btnicon {

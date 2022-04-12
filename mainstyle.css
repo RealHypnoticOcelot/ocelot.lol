@@ -170,7 +170,6 @@ p input {
 }
 
 .homeflex a {
-    display: none;
     text-decoration: none;
     width: 30%;
     transition: 0.2s;
@@ -265,6 +264,10 @@ background-color: white;
 
 .adddisp {
     display: block;
+}
+
+.dispnone {
+    display: none;
 }
 
 @keyframes showmenu {

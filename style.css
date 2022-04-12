@@ -126,7 +126,11 @@ overflow: hidden;
 }
 
 .icon:hover{
-    filter:brightness(110%)
+    filter:brightness(110%);
+}
+
+.icon:active {
+    filter:brightness(80%);
 }
 
 #background {

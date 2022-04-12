@@ -175,8 +175,6 @@ p input {
     transition: 0.2s;
 }
 
-
-
 .homeflex a:hover {
     transform: scale(110%);
     filter: brightness(110%);
@@ -381,5 +379,14 @@ div.menu img {
 
     .dotted {
         width: 20vw;
+    }
+    .homeflex a:hover {
+        transform: none;
+        filter: none;
+    }
+    
+    .homeflex a:active {
+        transform: none;
+        filter: none;
     }
 }

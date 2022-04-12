@@ -123,6 +123,7 @@ button {
     border-radius: 12px;
     transition: 0.2s;
     align-items: center;
+    text-decoration: none;
 }
 
 .btnicon {

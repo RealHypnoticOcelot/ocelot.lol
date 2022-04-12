@@ -168,6 +168,10 @@ p input {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .dotted {
     width: 50%;
     box-sizing: border-box;

@@ -232,9 +232,13 @@ background-color: white;
 }
 
 .movelogo {
+    width: 6vw;
+    opacity: 0%;
     animation: movecorner ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    min-width: 60px;
+    transition: 0.2s;
 }
 
 .menu {

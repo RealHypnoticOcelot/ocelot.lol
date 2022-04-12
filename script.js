@@ -8,6 +8,7 @@ const a = document.querySelectorAll('#adddisp')
 logo.addEventListener('animationend', () => {
   html.appendChild(logo)
   logo.classList.add('movelogo')
+  logo.classList.remove('logo')
   for (const adddisp of a) {
     adddisp.classList.add('adddisp');
     adddisp.classList.remove('dispnone');

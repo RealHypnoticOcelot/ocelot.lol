@@ -25,6 +25,10 @@ function button() {
   }
 }
 
+function alert(x) {
+  alert(x)
+}
+
 /*/ irrelevant but this logs the ID of the key you pressed
 document.addEventListener('keydown', function(key) {
   console.log(key.which)

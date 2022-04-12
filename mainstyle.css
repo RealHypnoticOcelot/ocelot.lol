@@ -332,7 +332,7 @@ div.menu img {
 }
 
 @keyframes loadbuttons {
-    0%   {margin-top: 100%;}
+    0%   {margin-top: 100%; opacity: 0%;}
     100% {margin-top: 0%; opacity: 100%;}
 }
 

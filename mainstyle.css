@@ -286,7 +286,6 @@ background-color: white;
 
 .buttonload {
     display: flex;
-    align-self: flex-start;
     animation: loadbuttons ease 0.8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;

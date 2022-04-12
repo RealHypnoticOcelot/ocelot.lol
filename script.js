@@ -26,7 +26,7 @@ function button() {
 }
 
 function alert() {
-  alert("HypnoticOcelot#6969")
+  alert("HypnoticOcelot#6969");
 }
 
 /*/ irrelevant but this logs the ID of the key you pressed

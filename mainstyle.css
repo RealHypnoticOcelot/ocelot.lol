@@ -175,6 +175,16 @@ p input {
     transition: 0.2s;
 }
 
+.homeflex a:hover {
+    transform: scale(110%);
+    filter: brightness(110%);
+}
+
+.homeflex a:active {
+    transform: scale(90%);
+    filter: brightness(90%);
+}
+
 .dotted {
     width: 50%;
     box-sizing: border-box;

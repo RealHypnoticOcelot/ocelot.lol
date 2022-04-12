@@ -10,7 +10,7 @@ logo.addEventListener('animationend', () => {
   logo.classList.add('movelogo')
   for (const adddisp of a) {
     adddisp.classList.add('adddisp');
-    adddisp.classList.add('dispnone');
+    adddisp.classList.remove('dispnone');
   }
   setTimeout(() => {  button(); }, 1000);
   setTimeout(() => {  cornermenu.classList.add("menuload"); }, 1000);

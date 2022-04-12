@@ -351,6 +351,9 @@ div.menu img {
     .homeflex a {
     width: 60%;
 }
+    button {
+        padding: 7px;
+    }
 }
 
 @media screen and (max-width: 460px) {

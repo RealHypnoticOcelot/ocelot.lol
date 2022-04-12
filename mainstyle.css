@@ -188,7 +188,7 @@ p input {
 }
 
 .dotted {
-    width: 50%;
+    width: 20%;
     box-sizing: border-box;
     border-style: dashed;
     border-color: white;
@@ -196,6 +196,7 @@ p input {
     border-left: 0px;
     border-right: 0px;
     margin: 10px;
+    margin-bottom: 15px;
 }
 
 .ad-top {
@@ -375,6 +376,6 @@ div.menu img {
     }
 
     .dotted {
-        width: 50vw;
+        width: 20vw;
     }
 }

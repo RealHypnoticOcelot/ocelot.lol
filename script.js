@@ -6,6 +6,7 @@ const root = document.documentElement
 const a = document.querySelectorAll('#adddisp')
 
 logo.addEventListener('animationend', () => {
+  html.appendChild(logo)
   logo.classList.add('movelogo')
   for (const adddisp of a) {
     adddisp.classList.add('adddisp');

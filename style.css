@@ -153,6 +153,10 @@ animation: blurin ease 1s;
     animation-fill-mode: forwards;
 }
 
+.noselect {
+    user-select: none;
+}
+
 @media screen and (max-width: 1040px) {
     .flex {
         width: 50%;

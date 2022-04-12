@@ -134,7 +134,7 @@ button {
 .btntext {
     margin-left: auto;
     margin-right: auto;
-    transform: translateX(-50px)
+    transform: translateX(-25px)
 }
 
 input:hover {

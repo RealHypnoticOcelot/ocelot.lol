@@ -132,9 +132,9 @@ button {
 }
 
 .btntext {
-    padding-left: 10px;
     margin-left: auto;
     margin-right: auto;
+    transform: translateX(-20px)
 }
 
 input:hover {
@@ -169,8 +169,9 @@ p input {
     text-align: center;
 }
 
-a {
+.homeflex a {
     text-decoration: none;
+    width: 30%;
 }
 
 .dotted {

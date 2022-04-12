@@ -339,6 +339,13 @@ div.menu img {
     .home, .movelogo {
     width: 12vw;
 }
+    .homeflex a {
+        width: 40%;
+    }
+    .btntext {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {

@@ -281,7 +281,7 @@ background-color: white;
 }
 
 .buttonload {
-    display: flex;
+    display: inline-flex;
     align-self: flex-start;
     animation: loadbuttons ease 0.8s;
     animation-iteration-count: 1;

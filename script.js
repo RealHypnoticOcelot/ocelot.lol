@@ -3,13 +3,15 @@ const buttons = document.querySelectorAll('.loadclass');
 const html = document.querySelector('html')
 const cornermenu = document.querySelector('.menu')
 const root = document.documentElement
-const a = document.querySelector('#adddisp')
+const a = document.querySelectorAll('#adddisp')
 
 logo.addEventListener('animationend', () => {
   html.appendChild(logo)
   logo.classList.add('movelogo')
-  a.classList.add('adddisp')
-  a.classList.remove('dispnone')
+  for (const adddisp of a) {
+    adddisp.classList.add('adddisp');
+    adddisp.classList.add('dispnone');
+  }
   setTimeout(() => {  button(); }, 1000);
   setTimeout(() => {  cornermenu.classList.add("menuload"); }, 1000);
 },

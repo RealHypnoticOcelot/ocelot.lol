@@ -170,10 +170,13 @@ p input {
 }
 
 .homeflex a {
+    display: none;
     text-decoration: none;
     width: 30%;
     transition: 0.2s;
 }
+
+
 
 .homeflex a:hover {
     transform: scale(110%);
@@ -258,6 +261,10 @@ background-color: white;
     animation: showmenu ease 0.8s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+.adddisp {
+    display: block;
 }
 
 @keyframes showmenu {

@@ -3,10 +3,12 @@ const buttons = document.querySelectorAll('.loadclass');
 const html = document.querySelector('html')
 const cornermenu = document.querySelector('.menu')
 const root = document.documentElement
+const a = document.querySelector('#adddisp')
 
 logo.addEventListener('animationend', () => {
   html.appendChild(logo)
   logo.classList.add('movelogo')
+  a.classList.add('adddisp')
   setTimeout(() => {  button(); }, 1000);
   setTimeout(() => {  cornermenu.classList.add("menuload"); }, 1000);
 },

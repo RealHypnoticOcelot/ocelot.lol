@@ -239,6 +239,10 @@ background-color: white;
     transition: 0.2s;
 }
 
+.movelogo:hover {
+    filter: brightness(110%);
+}
+
 .menu {
     opacity: 0%;
 	background-color: black;

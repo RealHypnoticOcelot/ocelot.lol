@@ -221,7 +221,8 @@ background-color: white;
 
 @keyframes load {
     0%   {
-        margin-top: -50px;
+        top: -50px;
+        left: 2%;
         border-radius: 0px 0px 0px 0px;
     }
     100% {

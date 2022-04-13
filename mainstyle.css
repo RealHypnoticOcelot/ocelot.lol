@@ -219,6 +219,7 @@ background-color: white;
 }
 
 .footer {
+    transition: 1s;
     opacity: 50%;
 	background-color: #323330;
     height: 20px;

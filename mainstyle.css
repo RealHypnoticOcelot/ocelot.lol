@@ -221,16 +221,17 @@ background-color: white;
 
 @keyframes load {
     0%   {
-        top: -50px;
+        margin-top: -50px;
         left: 2%;
         border-radius: 0px 0px 0px 0px;
     }
     100% {
         opacity: 100%;
         border-radius: 20%;
-        position: fixed;
-        top: 2%;
-        left: 2%;
+        margin-top: 0%;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 2%;
     }
 }
 

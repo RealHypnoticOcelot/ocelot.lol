@@ -268,7 +268,7 @@ background-color: white;
 
 
 /*/ Stolen from W3Schools /*/
-.modal {
+.footerpopup {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -283,7 +283,7 @@ background-color: white;
   }
   
   /* Modal Content */
-  .modal-content {
+  .popup-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;

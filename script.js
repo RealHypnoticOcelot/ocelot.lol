@@ -6,7 +6,7 @@ const root = document.documentElement
 
 logo.addEventListener('animationend', () => {
   logo.classList.add('movelogo')
-  setTimeout(() => {  button(); }, 1000);
+  button();
 },
 { once: true }
 );

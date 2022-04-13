@@ -171,7 +171,7 @@ p input {
 
 .homeflex a {
     text-decoration: none;
-    width: 30%;
+    width: 40%;
     transition: 0.2s;
 }
 
@@ -347,7 +347,7 @@ div.menu img {
     width: 12vw;
 }
     .homeflex a {
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -356,7 +356,7 @@ div.menu img {
     width: 10vw;
 }
     .homeflex a {
-    width: 60%;
+    width: 70%;
 }
     button {
         padding: 7px;
@@ -368,7 +368,7 @@ div.menu img {
     width: 14vw;
 }
     .homeflex a {
-    width: 70%;
+    width: 80%;
 }
 }
 

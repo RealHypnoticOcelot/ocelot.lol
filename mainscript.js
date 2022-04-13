@@ -10,12 +10,14 @@ window.addEventListener("load", () => {
 });
 
 function change() {
+const favicon = document.querySelector('link[rel="icon"]');
+const button = document.querySelector('.themebutton')
 if (getCookie("theme") == "light") {
-  const favicon = document.querySelector('link[rel="icon"]');
   favicon.href = "/assets/icon_circle_dark.png";
+  button.src = "/theme_day.png"
 } else if (getCookie("theme") == "dark") {
-  const favicon = document.querySelector('link[rel="icon"]');
   favicon.href = "/assets/icon_circle.png";
+  button.src = "/theme_night.png"
 }
 }
 

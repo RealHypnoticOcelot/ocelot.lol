@@ -26,7 +26,7 @@ function change() {
     favicon.href = "/assets/icon_circle_dark.png";
     box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
     box.style.color = "white"
-    footer.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
+    footer.style.backgroundColor = "rgba(50, 51, 48, 0.8)";
     footer.style.color = "white"
     popup.style.backgroundColor = "rgba(50, 51, 48, 0.8)"
     popup.style.color = "white"
@@ -34,7 +34,7 @@ function change() {
     favicon.href = "/assets/icon_circle.png";
     box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
     box.style.color = "black"
-    footer.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
+    footer.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     footer.style.color = "black"
     popup.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     popup.style.color = "black"

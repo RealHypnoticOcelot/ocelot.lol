@@ -291,11 +291,8 @@ div.menu img {
 }
 
 @media screen and (max-width: 1000px) {
-    .logo {
+    .home, .logo {
     width: 12vw;
-}
-    .home {
-    width: 8vw;
 }
 }
 

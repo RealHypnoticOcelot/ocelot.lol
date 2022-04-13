@@ -1,6 +1,6 @@
-const footer = document.getElementById('footer');
-const popup = document.getElementById('footerpopup')
-const close = document.getElementsByClassName('close')[0]
+var footer = document.getElementById('footer');
+var popup = document.getElementById('footerpopup');
+var close = document.getElementsByClassName('close')[0];
 
 footer.onclick = function() {
   popup.style.display = "block";

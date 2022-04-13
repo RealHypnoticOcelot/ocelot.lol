@@ -22,6 +22,7 @@ function change() {
   const box = document.getElementById('box');
   const footer = document.getElementById('footer');
   const popup = document.getElementById('popup-content');
+  const button = document.querySelector('.themebutton')
   if (getCookie("theme") == "light") {
     favicon.href = "/assets/icon_circle_dark.png";
     box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
@@ -30,6 +31,7 @@ function change() {
     footer.style.color = "white"
     popup.style.backgroundColor = "rgba(50, 51, 48, 0.8)"
     popup.style.color = "white"
+    button.src = "/theme_day.png"
   } else if (getCookie("theme") == "dark") {
     favicon.href = "/assets/icon_circle.png";
     box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
@@ -38,5 +40,6 @@ function change() {
     footer.style.color = "black"
     popup.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     popup.style.color = "black"
+    button.src = "/theme_night.png"
   }
   }

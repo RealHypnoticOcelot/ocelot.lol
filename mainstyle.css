@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     background-color: black;
+    overflow-y: scroll;
     /* For image BG
     background-image: url(https://softauthor.com/wp-content/uploads/2021/08/CSS-Background-Image-Full-Screen-background-size-cover-1024x845.png);
     background-repeat: no-repeat;

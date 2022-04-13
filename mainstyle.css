@@ -288,7 +288,8 @@ background-color: white;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /* The Close Button */
@@ -385,6 +386,9 @@ div.menu img {
     .box {
     margin-top: 150px;
 }
+    .popup-content {
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 460px) {

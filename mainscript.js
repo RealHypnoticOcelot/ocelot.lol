@@ -12,22 +12,10 @@ window.addEventListener("load", () => {
 function change() {
 if (getCookie("theme") == "light") {
   const favicon = document.querySelector('link[rel="icon"]');
-  const box = document.getElementById('box');
-  const footer = document.getElementById('footer');
   favicon.href = "/assets/icon_circle_dark.png";
-  box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
-  box.style.color = "white"
-  footer.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
-  footer.style.color = "white"
 } else if (getCookie("theme") == "dark") {
   const favicon = document.querySelector('link[rel="icon"]');
-  const box = document.getElementById('box');
-  const footer = document.getElementById('footer');
   favicon.href = "/assets/icon_circle.png";
-  box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
-  box.style.color = "black"
-  footer.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
-  footer.style.color = "black"
 }
 }
 

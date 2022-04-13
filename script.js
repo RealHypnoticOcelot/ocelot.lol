@@ -5,7 +5,6 @@ const cornermenu = document.querySelector('.menu')
 const root = document.documentElement
 
 logo.addEventListener('animationend', () => {
-  html.appendChild(logo)
   logo.classList.add('movelogo')
   setTimeout(() => {  button(); }, 1000);
 },

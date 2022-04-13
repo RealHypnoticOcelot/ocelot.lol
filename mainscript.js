@@ -11,11 +11,15 @@ window.addEventListener("load", () => {
 
 function change() {
 if (getCookie("theme") == "light") {
-  const favicon = document.querySelector('link[rel="icon"]')
-  favicon.href = "/assets/icon_circle_dark.png"
+  const favicon = document.querySelector('link[rel="icon"]');
+  const box = document.getElementById('box');
+  favicon.href = "/assets/icon_circle_dark.png";
+  box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
 } else if (getCookie("theme") == "dark") {
-  const favicon = document.querySelector('link[rel="icon"]')
-  favicon.href = "/assets/icon_circle.png"
+  const favicon = document.querySelector('link[rel="icon"]');
+  const box = document.getElementById('box');
+  favicon.href = "/assets/icon_circle.png";
+  box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
 }
 }
 

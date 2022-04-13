@@ -216,7 +216,7 @@ background-color: white;
 
 .box {
     transition: 1s;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
     filter:drop-shadow(5px 5px 5px gray);
     margin: 20px;
     padding-left: 10px;
@@ -226,6 +226,8 @@ background-color: white;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @keyframes showmenu {

@@ -8,7 +8,6 @@ logo.addEventListener('animationend', () => {
   html.appendChild(logo)
   logo.classList.add('movelogo')
   setTimeout(() => {  button(); }, 1000);
-  setTimeout(() => {  cornermenu.classList.add("menuload"); }, 1000);
 },
 { once: true }
 );

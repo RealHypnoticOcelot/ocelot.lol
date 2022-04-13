@@ -1,9 +1,6 @@
 html {
     scroll-behavior: smooth;
     background-color: black;
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     /* For image BG
     background-image: url(https://softauthor.com/wp-content/uploads/2021/08/CSS-Background-Image-Full-Screen-background-size-cover-1024x845.png);
     background-repeat: no-repeat;
@@ -11,9 +8,18 @@ html {
     */
 }
 
+/* Disable Scrollbar */
+html {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 html::-webkit-scrollbar {
     display: none;
 }
+/* Disable Scrollbar */
+
 /* testing */
 /* latin */
 @font-face {

@@ -4,6 +4,7 @@ const html = document.querySelector('html')
 const cornermenu = document.querySelector('.menu')
 const root = document.documentElement
 const a = document.querySelectorAll('#adddisp')
+const homeflex = document.querySelector('.homeflex')
 
 logo.addEventListener('animationend', () => {
   html.appendChild(logo)
@@ -13,6 +14,7 @@ logo.addEventListener('animationend', () => {
     adddisp.classList.add('adddisp');
     adddisp.classList.remove('dispnone');
   }
+  homeflex.classList.add('flexdata');
   setTimeout(() => {  button(); }, 1000);
   setTimeout(() => {  cornermenu.classList.add("menuload"); }, 1000);
 },

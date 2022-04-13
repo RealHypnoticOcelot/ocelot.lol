@@ -2,11 +2,12 @@ const footer = document.getElementById('footer');
 const popup = document.getElementById('footerpopup')
 const close = document.getElementsByClassName('close')[0]
 
-function footer() {
+footer.onclick = function() {
   popup.style.display = "block";
 }
 
-function closepopup() {
+
+close.onclick = function() {
   popup.style.display = "none";
 }
 

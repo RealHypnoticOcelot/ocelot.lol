@@ -48,3 +48,16 @@ function getCookie(cname) {
     let expires = "expires="+ d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   }
+
+  function swaptheme() {
+    const currenttheme = getCookie("theme");
+    if (currenttheme == "dark") {
+      setCookie("theme", "light", 365);
+      console.log(currenttheme)
+      change()
+    } else if (currenttheme == "light") {
+      setCookie("theme", "dark", 365);
+      console.log(currenttheme)
+      change()
+    }
+  }

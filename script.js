@@ -35,19 +35,6 @@ if (getCookie("theme") == "light") {
 }
 }
 
-function swaptheme() {
-  const currenttheme = getCookie("theme");
-  if (currenttheme == "dark") {
-    setCookie("theme", "light", 365);
-    console.log(currenttheme)
-    change()
-  } else if (currenttheme == "light") {
-    setCookie("theme", "dark", 365);
-    console.log(currenttheme)
-    change()
-  }
-}
-
 /*/ irrelevant but this logs the ID of the key you pressed
 document.addEventListener('keydown', function(key) {
   console.log(key.which)

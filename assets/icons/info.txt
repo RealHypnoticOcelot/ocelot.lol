@@ -1,2 +1,0 @@
-JavaScript Yellow: #f0db4f
-JavaScript Text: #323330

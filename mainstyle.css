@@ -397,6 +397,10 @@ div.menu img {
     .popup-content {
         width: 80%;
     }
+    .footer {
+        transform: unset;
+        left: 0;
+    }
 }
 
 @media screen and (max-width: 460px) {

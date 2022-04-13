@@ -21,7 +21,7 @@ function change() {
   const favicon = document.querySelector('link[rel="icon"]');
   const box = document.getElementById('box');
   const footer = document.getElementById('footer');
-  const popup = document.getElementById('footerpopup');
+  const popup = document.getElementById('popup-content');
   if (getCookie("theme") == "light") {
     favicon.href = "/assets/icon_circle_dark.png";
     box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";

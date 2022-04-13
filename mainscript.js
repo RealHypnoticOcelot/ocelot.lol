@@ -24,9 +24,9 @@ if (getCookie("theme") == "light") {
   const box = document.getElementById('box');
   const footer = document.getElementById('footer');
   favicon.href = "/assets/icon_circle.png";
-  box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
+  box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
   box.style.color = "black"
-  footer.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
+  footer.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
   footer.style.color = "black"
 }
 }

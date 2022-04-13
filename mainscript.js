@@ -1,9 +1,3 @@
-const logo = document.querySelector('.logo');
-const buttons = document.querySelectorAll('.loadclass');
-const html = document.querySelector('html')
-const cornermenu = document.querySelector('.menu')
-const root = document.documentElement
-
 // on page load
 window.addEventListener("load", () => {
     const theme = getCookie("theme");
@@ -21,13 +15,13 @@ if (getCookie("theme") == "light") {
   const box = document.getElementById('box');
   favicon.href = "/assets/icon_circle_dark.png";
   box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
-  box.style.color = "white";
+  box.style.color = "white"
 } else if (getCookie("theme") == "dark") {
   const favicon = document.querySelector('link[rel="icon"]');
   const box = document.getElementById('box');
   favicon.href = "/assets/icon_circle.png";
   box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
-  box.style.color = "black";
+  box.style.color = "black"
 }
 }
 
@@ -53,30 +47,4 @@ function getCookie(cname) {
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     let expires = "expires="+ d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
-
-  logo.addEventListener('animationend', () => {
-    logo.classList.add('movelogo')
-    button();
-  },
-  { once: true }
-  );
-  
-  function button() {
-    for (const loadclass of buttons) {
-      loadclass.classList.add('buttonload');
-    }
-  }
-  
-  function swaptheme() {
-    const currenttheme = getCookie("theme");
-    if (currenttheme == "dark") {
-      setCookie("theme", "light", 365);
-      console.log(currenttheme)
-      change()
-    } else if (currenttheme == "light") {
-      setCookie("theme", "dark", 365);
-      console.log(currenttheme)
-      change()
-    }
   }

@@ -44,20 +44,10 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 }
 
 .homeflex {
-    max-height: 100%;
+    max-height: unset;
     width: 80%;
     max-width: 100%;
-        margin: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 1px;
-        animation: fadein ease 1s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        overflow: hidden;
-        margin-left: 10%;
-        margin-right: 10%;
-        font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
 }
 
 .button {

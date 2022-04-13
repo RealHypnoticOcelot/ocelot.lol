@@ -230,8 +230,6 @@ background-color: white;
 	background-color: #323330;
     height: 20px;
     position: absolute;
-    left: 0;
-    right: 0;
     border-radius: 0px 0px 0px 0px;
     resize: none;
     overflow: hidden;
@@ -241,6 +239,11 @@ background-color: white;
     animation-fill-mode: forwards;
     animation-delay: 250ms;
     bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
 }
 
 .box {

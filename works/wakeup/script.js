@@ -28,7 +28,7 @@ function change() {
     box.style.color = "white"
     footer.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
     footer.style.color = "white"
-    popup.style.backgroundColor = "rgba(50, 51, 48, 0.4)"
+    popup.style.backgroundColor = "rgba(50, 51, 48, 0.8)"
     popup.style.color = "white"
   } else if (getCookie("theme") == "dark") {
     favicon.href = "/assets/icon_circle.png";
@@ -36,7 +36,7 @@ function change() {
     box.style.color = "black"
     footer.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
     footer.style.color = "black"
-    popup.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
+    popup.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     popup.style.color = "black"
   }
   }

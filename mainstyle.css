@@ -147,6 +147,7 @@ button {
 .btnicon {
     height: 50px;
     border-radius: 10px;
+    padding: 1px;
 }
 
 .btntext {

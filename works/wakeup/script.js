@@ -25,7 +25,7 @@ function change() {
   const button = document.querySelector('.themebutton')
   if (getCookie("theme") == "light") {
     favicon.href = "/assets/icon_circle_dark.png";
-    box.style.backgroundColor = "rgba(50, 51, 48, 0.4)";
+    box.style.backgroundColor = "rgba(50, 51, 48, 0.8)";
     box.style.color = "white"
     footer.style.backgroundColor = "rgba(50, 51, 48, 0.8)";
     footer.style.color = "white"
@@ -34,7 +34,7 @@ function change() {
     button.src = "/theme_day.png"
   } else if (getCookie("theme") == "dark") {
     favicon.href = "/assets/icon_circle.png";
-    box.style.backgroundColor = "rgba(255, 255, 255, 0.4)";
+    box.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     box.style.color = "black"
     footer.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
     footer.style.color = "black"

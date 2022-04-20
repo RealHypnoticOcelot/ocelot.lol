@@ -57,8 +57,21 @@
             background-color: gray;
             cursor: not-allowed;
         }
+
+        @media screen and (max-width: 825px) {
+            .home, .movelogo {
+            width: 12vw;
+            }
+            .homeflex a {
+            width: 50%;
+        }
+        }
     </style>
 </head>
+
+
+<script src='virtualjoystick.js'></script>
+
 
 <body>
     <div id="maindiv" class="container text-center" style="top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%);">

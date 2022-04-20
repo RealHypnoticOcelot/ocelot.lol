@@ -71,7 +71,38 @@
 
 
 <script src='virtualjoystick.js'></script>
+<script>
+	console.log("touchscreen is", VirtualJoystick.touchScreenAvailable() ? "available" : "not available");
 
+	// 
+	var joystick	= new VirtualJoystick({
+		container	: document.body,
+		strokeStyle	: 'cyan',
+		limitStickTravel: true,
+		stickRadius	: 120		
+	});
+	joystick.addEventListener('touchStartValidation', function(event){
+		var touch	= event.changedTouches[0];
+		if( touch.pageX < window.innerWidth/2 )	return false;
+		return true
+	});
+
+	// one on the right of the screen
+	var joystick	= new VirtualJoystick({
+		container	: document.body,
+		strokeStyle	: 'orange',
+		limitStickTravel: true,
+		stickRadius	: 0		
+	});
+	joystick.addEventListener('touchStartValidation', function(event){
+		var touch	= event.changedTouches[0];
+		if( touch.pageX >= window.innerWidth/2 )	return false;
+		return true
+	});
+	joystick.addEventListener('touchStart', function(){
+		console.log('fire')
+	})
+</script>
 
 <body>
     <div id="maindiv" class="container text-center" style="top: 50%; left: 50%; position: absolute; transform: translate(-50%, -50%);">

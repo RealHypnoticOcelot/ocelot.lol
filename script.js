@@ -623,6 +623,7 @@ class MyClass {
         this.rom_name = romurl.substr(5);
         loadrombtn.innerHTML = "Loading...";
         loadrombtn.removeAttribute('onclick');
+        loadrombtn.classList.add('btndisabled')
 
         this.load_url(romurl);
     }

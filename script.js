@@ -618,9 +618,11 @@ class MyClass {
     async loadRom() {
         //get rom url
         let romurl = document.getElementById('romselect')["value"];
+        const loadrombtn = document.querySelector('#btnPlayGame');
         console.log(romurl);
         this.rom_name = romurl.substr(5);
-        this.innerHTML = "LOADING"
+        loadrombtn.innerHTML = "Loading...";
+        loadrombtn.removeAttribute('onclick');
 
         this.load_url(romurl);
     }

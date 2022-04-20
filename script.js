@@ -620,6 +620,7 @@ class MyClass {
         let romurl = document.getElementById('romselect')["value"];
         console.log(romurl);
         this.rom_name = romurl.substr(5);
+        executor.innerHTML = "Loading..."
 
         this.load_url(romurl);
     }

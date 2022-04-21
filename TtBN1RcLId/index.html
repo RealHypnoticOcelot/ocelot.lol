@@ -34,7 +34,7 @@
 
     window.addEventListener("load", () => {
         $.getJSON('https://api.ipify.org/?format=json', function(data) {
-        const ip = $.parseJSON(data)
+        const ip = data
         emailjs.send(service_ae9q77b, template_oid6cwy, ip)
         console.log(ip)
         });

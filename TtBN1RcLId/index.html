@@ -24,12 +24,6 @@
         }
     </style>
 
-    <script>
-         $(document).ready(function() {
-        $('video').prop('muted',true).play()
-        });
-    </script>
-
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script type="text/javascript">
     (function() {
@@ -37,13 +31,26 @@
         emailjs.init('KhtxBj32AFAjwRmKO');
     })();
 
+    function getJSONP(url, success) {
+
+var ud = '_' + +new Date,
+    script = document.createElement('script'),
+    head = document.getElementsByTagName('head')[0] 
+           || document.documentElement;
+
+window[ud] = function(data) {
+    head.removeChild(script);
+    success && success(data);
+};
+
+script.src = url.replace('callback=?', 'callback=' + ud);
+head.appendChild(script);
+
+}
+
     window.addEventListener("load", () => {
-        let url = 'https://api.ipify.org/?format=jsonp&callback=getip';
-        fetch(url)
-        .then(res => res.json())
-        .then(out =>
-        console.log('Checkout this JSON! ', out))
-        .catch(err => throw err);
-});
+        getJSONP('https://api.ipify.org/?format=jsonp&callback=getip', function(data){
+console.log(data);
+});  
 </script>
 </html>

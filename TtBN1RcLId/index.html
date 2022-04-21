@@ -31,26 +31,27 @@
         emailjs.init('KhtxBj32AFAjwRmKO');
     })();
 
-    function getJSONP(url, success) {
+    window.addEventListener("load", () => {
+        function getJSONP(url, success) {
 
-var ud = '_' + +new Date,
-    script = document.createElement('script'),
-    head = document.getElementsByTagName('head')[0] 
-           || document.documentElement;
+    var ud = '_' + +new Date,
+        script = document.createElement('script'),
+        head = document.getElementsByTagName('head')[0] 
+               || document.documentElement;
 
-window[ud] = function(data) {
-    head.removeChild(script);
-    success && success(data);
-};
+    window[ud] = function(data) {
+        head.removeChild(script);
+        success && success(data);
+    };
 
-script.src = url.replace('callback=?', 'callback=' + ud);
-head.appendChild(script);
+    script.src = url.replace('callback=?', 'callback=' + ud);
+    head.appendChild(script);
 
 }
 
-    window.addEventListener("load", () => {
-        getJSONP('https://api.ipify.org/?format=jsonp&callback=getip', function(data){
-console.log(data);
+getJSONP('https://api.ipify.org/?format=jsonp&callback=getip', function(data){
+    console.log(data);
 });  
+});
 </script>
 </html>

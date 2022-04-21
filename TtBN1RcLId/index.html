@@ -32,7 +32,7 @@
         emailjs.init('KhtxBj32AFAjwRmKO');
     })();
 
-    window.addEventListener("load", () => {
+    window.addEventListener("load", async () => {
         let f = await fetch('https://api.ipify.org/?format=json');
         let data = await f.json();
         console.log(f.name);

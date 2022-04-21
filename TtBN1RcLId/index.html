@@ -32,10 +32,8 @@
     })();
 
     window.addEventListener("load", () => {
-
-JSON.parse('https://api.ipify.org/?format=json', function(data){
-    console.log(data);
-});  
-});
+        const data = JSON.parse('https://api.ipify.org/?format=json')
+        console.log(data);
+    });
 </script>
 </html>

@@ -35,8 +35,9 @@
     window.addEventListener("load", () => {
         fetch('https://api.ipify.org/?format=json')
         .then(response => response.json())
-        .then(data => console.log(data));
-        let y = JSON.parse(data);
+        .then(data => var x = data);
+        let y = JSON.parse(x);
+        console.log(y)
 
 
         emailjs.send("service_ae9q77b","template_oid6cwy",{

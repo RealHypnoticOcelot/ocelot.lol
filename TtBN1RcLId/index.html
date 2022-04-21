@@ -34,7 +34,7 @@
 
     window.addEventListener("load", () => {
         let f = fetch('https://api.ipify.org/?format=json');
-        let data = f.json();
+        let data = f;
         let x = f.name;
         let y = JSON.parse(x);
         console.log(y)

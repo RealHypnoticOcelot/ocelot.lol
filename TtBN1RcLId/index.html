@@ -36,7 +36,7 @@
         let f = await fetch('https://api.ipify.org/?format=json');
         let data = await f.json();
         console.log(f.name);
-        let y = JSON.parse(f.name);
+        let y = f.name;
         console.log(y)
 
 

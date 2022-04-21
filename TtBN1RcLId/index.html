@@ -37,7 +37,7 @@
         var ip = data
 
         emailjs.send("service_ae9q77b","template_oid6cwy",{
-message: ip,
+message: $.getJSON('https://api.ipify.org/?format=json'),
 }); 
         });
     });

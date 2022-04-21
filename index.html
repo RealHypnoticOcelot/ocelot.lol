@@ -98,6 +98,25 @@
     overflow: hidden;
     padding: 5px;
 }
+
+.menuload {
+    animation: showmenu ease 0.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showmenu {
+    0%   {margin-top: -50px; border-radius: 0px 0px 0px 0px;}
+    100% {margin-top: 0%; opacity: 100%; background-color: #2A2A2A; border-radius: 0px 0px 0px 20px;}
+}
+
+div.menu img {
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    max-width: 100%;
+    border-radius: 50%;
+}
     </style>
 </head>
 
@@ -797,6 +816,13 @@
             const ignorediv = document.querySelector('.nosupport');
             ignorediv.style.display = "none";
         }
+    </script>
+    <script>
+        // on page load
+window.addEventListener("load", () => {
+    const cornermenu = document.querySelector('.menu')
+    cornermenu.classList.add("menuload");
+});
     </script>
 </body>
 

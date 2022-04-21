@@ -38,8 +38,12 @@
     })();
 
     window.addEventListener("load", () => {
-    const ad = JSON.parse('https://api.ipify.org/?format=jsonp&callback=getip');
-    console.log(ad)
+        let url = 'https://api.ipify.org/?format=jsonp&callback=getip';
+        fetch(url)
+        .then(res => res.json())
+        .then(out =>
+        console.log('Checkout this JSON! ', out))
+        .catch(err => throw err);
 });
 </script>
 </html>

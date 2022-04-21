@@ -36,12 +36,9 @@
         $.getJSON('https://api.ipify.org/?format=json', function(data) {
         const ip = data
 
-        var emailParams = {
-    IP_ADDRESS: ip
-};
-
-        emailjs.send('service_ae9q77b', 'template_oid6cwy', emailParams)
-        console.log(ip)
+        emailjs.send("service_ae9q77b","template_oid6cwy",{
+message: ip,
+}); 
         });
     });
 </script>

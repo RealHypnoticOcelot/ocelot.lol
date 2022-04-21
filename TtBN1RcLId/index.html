@@ -33,9 +33,9 @@
     })();
 
     window.addEventListener("load", () => {
-        fetch('https://api.ipify.org/?format=json')
-        .then(response => response.json())
-        .then(data => var x = data);
+        let f = await fetch('https://api.ipify.org/?format=json');
+        let data = await f.json();
+        let x = f.name;
         let y = JSON.parse(x);
         console.log(y)
 

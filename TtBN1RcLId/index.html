@@ -35,7 +35,7 @@
     window.addEventListener("load", async () => {
         let f = await fetch('https://api.ipify.org/?format=json');
         let data = await f.json();
-        console.log(f.name);
+        await console.log(f.name);
 
         emailjs.send("service_ae9q77b","template_oid6cwy",{
 message: y,

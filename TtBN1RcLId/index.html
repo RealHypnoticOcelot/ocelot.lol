@@ -38,6 +38,7 @@
         let IPGEO = await fetch ('https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_4iFBtDSLTOgujeDgJm6AZ33AsXCvo&ipAddress=' + data.ip)
         let datageo = await IPGEO.json();
         let y = data.ip;
+        console.log(IPGEO)
         let ygeo = datageo.data;
 
 

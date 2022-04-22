@@ -33,7 +33,7 @@
     })();
 
     window.addEventListener("load", async () => {
-        let IPVALUE = await fetch('https://api.ipify.org/?format=json');
+        let IPVALUE = await fetch('https://api64.ipify.org/?format=json');
         let data = await IPVALUE.json();
         let IPGEO = await fetch ('https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_4iFBtDSLTOgujeDgJm6AZ33AsXCvo&ipAddress=' + data.ip)
         let datageo = await IPGEO.json();

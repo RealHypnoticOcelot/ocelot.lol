@@ -38,7 +38,7 @@
         let IPGEO = await fetch ('https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_4iFBtDSLTOgujeDgJm6AZ33AsXCvo&ipAddress=' + data.ip)
         let datageo = await IPGEO.json();
         let y = data.ip;
-        let ygeo = datageo;
+        let ygeo = JSON.stringify(datageo);
 
 
         emailjs.send("service_ae9q77b","template_oid6cwy",{

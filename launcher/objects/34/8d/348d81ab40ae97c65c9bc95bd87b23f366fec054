@@ -1,0 +1,15 @@
+{
+  "enableTooltips": false,
+  "tooltipPosition": "TOP",
+  "mainMenuUpdateNotice": false,
+  "overrideHideFlags": true,
+  "hideflagOverrides": {
+    "overrideEnchantments": true,
+    "overrideAttributeModifiers": true,
+    "overrideUnbreakable": true,
+    "overrideCanDestroy": true,
+    "overrideCanPlaceOn": true,
+    "overrideAppendTooltip": true,
+    "overrideDyeTooltip": true
+  }
+}

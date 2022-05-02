@@ -1,0 +1,18 @@
+{
+  "distance": 4.0,
+  "opacity": 0.2,
+  "jitter": 1.0,
+  "fuzziness": 1.0,
+  "spreadY": 64.0,
+  "spacing": 5.25,
+  "sizeX": 16.0,
+  "sizeY": 8.0,
+  "windSpeed": 0.03,
+  "chunkSize": 32,
+  "fadeEdge": 32,
+  "usePersistentBuffers": true,
+  "async": true,
+  "writeDepth": false,
+  "enableExperimentalIrisSupport": false,
+  "__version": 1
+}

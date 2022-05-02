@@ -1,0 +1,10 @@
+{
+  "enableHudRendering": true,
+  "toggleDroppedItem": false,
+  "toggleItemFrame": false,
+  "toggleArmorStand": false,
+  "tooltipLineLimit": 7,
+  "tooltipColor": 2556032,
+  "hudTooltipPosition": "BOTTOM_LEFT",
+  "hudTooltipZ": "TOP"
+}

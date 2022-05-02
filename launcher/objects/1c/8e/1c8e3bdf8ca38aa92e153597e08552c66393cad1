@@ -1,0 +1,43 @@
+{
+	"main": {
+		"time": {
+			"addButton1": 1000,
+			"addButton2": 10000
+		},
+		"weather": {
+			"delay": 1500
+		}
+	},
+	"customGUI": {
+		"b0": {
+			"active": false,
+			"title": "First button",
+			"command": "/say Hello"
+		},
+		"b1": {
+			"active": false,
+			"title": "Second button",
+			"command": "/say Hello"
+		},
+		"b2": {
+			"active": false,
+			"title": "Third button",
+			"command": "/say Hello"
+		},
+		"b3": {
+			"active": false,
+			"title": "Fourth button",
+			"command": "/say Hello"
+		},
+		"b4": {
+			"active": false,
+			"title": "Fifth button",
+			"command": "/say Hello"
+		},
+		"b5": {
+			"active": false,
+			"title": "Sixth button",
+			"command": "/say Hello"
+		}
+	}
+}

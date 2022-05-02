@@ -1,0 +1,4 @@
+enable_glow_potion=true #If true there will be an item for the glowing potion effect. Will need a restart. | default: true
+enable_shulker_bullet_glow=true #If true a shulker bullet will also set you glowing | default: true
+all_entities_glow=false #If true every entity will perpetually glow. Will need a restart. | default: false
+

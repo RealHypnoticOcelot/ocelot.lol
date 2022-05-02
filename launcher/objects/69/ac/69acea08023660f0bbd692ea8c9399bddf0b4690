@@ -1,0 +1,121 @@
+[
+  {
+    "name": "default",
+    "entries": [
+      {
+        "state": "{Name:\"minecraft:diamond_ore\"}",
+        "name": "Diamond Ore",
+        "color": "#0090c3",
+        "order": 1,
+        "isDefault": false,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_diamond_ore\"}",
+        "name": "Deepslate Diamond Ore",
+        "color": "#0091c3",
+        "order": 2,
+        "isDefault": false,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:emerald_ore\"}",
+        "name": "Emerald Ore",
+        "color": "#00af00",
+        "order": 3,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_emerald_ore\"}",
+        "name": "Deepslate Emerald Ore",
+        "color": "#00af00",
+        "order": 4,
+        "isDefault": false,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:spawner\"}",
+        "name": "Spawner",
+        "color": "#ff6f6f",
+        "order": 5,
+        "isDefault": false,
+        "active": true
+      },
+      {
+        "state": "{Name:\"minecraft:chest\",Properties:{facing:\"north\",type:\"single\",waterlogged:\"false\"}}",
+        "name": "Chest",
+        "color": "#ffb500",
+        "order": 6,
+        "isDefault": false,
+        "active": true
+      },
+      {
+        "state": "{Name:\"minecraft:iron_ore\"}",
+        "name": "Iron Ore",
+        "color": "#7d6455",
+        "order": 7,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_iron_ore\"}",
+        "name": "Deepslate Iron Ore",
+        "color": "#7d644b",
+        "order": 8,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:coal_ore\"}",
+        "name": "Coal Ore",
+        "color": "#000000",
+        "order": 9,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:deepslate_coal_ore\"}",
+        "name": "Deepslate Coal Ore",
+        "color": "#000000",
+        "order": 10,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:obsidian\"}",
+        "name": "Obsidian",
+        "color": "#faffff",
+        "order": 11,
+        "isDefault": true,
+        "active": true
+      },
+      {
+        "state": "{Name:\"minecraft:gold_ore\"}",
+        "name": "Gold Ore",
+        "color": "#ffff00",
+        "order": 12,
+        "isDefault": true,
+        "active": false
+      },
+      {
+        "state": "{Name:\"minecraft:ancient_debris\"}",
+        "name": "Ancient Debris",
+        "color": "#a16000",
+        "order": 13,
+        "isDefault": true,
+        "active": true
+      },
+      {
+        "state": "{Name:\"minecraft:bookshelf\"}",
+        "name": "Bookshelf",
+        "color": "#ff2ba0",
+        "order": 14,
+        "isDefault": true,
+        "active": true
+      }
+    ],
+    "order": 1,
+    "active": true
+  }
+]

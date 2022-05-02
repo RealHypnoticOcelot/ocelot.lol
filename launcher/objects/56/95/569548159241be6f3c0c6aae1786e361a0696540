@@ -1,0 +1,872 @@
+{
+  "keys": [
+    [
+      {
+        "text": "ESC",
+        "keyCode": 256,
+        "extraWidth": 14,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "1",
+        "keyCode": 290,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "2",
+        "keyCode": 291,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "3",
+        "keyCode": 292,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "4",
+        "keyCode": 293,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "5",
+        "keyCode": 294,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "6",
+        "keyCode": 295,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "7",
+        "keyCode": 296,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "8",
+        "keyCode": 297,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "9",
+        "keyCode": 298,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "10",
+        "keyCode": 299,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "11",
+        "keyCode": 300,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "12",
+        "keyCode": 301,
+        "extraWidth": 2,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "`",
+        "keyCode": 96,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "1",
+        "keyCode": 49,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "2",
+        "keyCode": 50,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "3",
+        "keyCode": 51,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "4",
+        "keyCode": 52,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "5",
+        "keyCode": 53,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "6",
+        "keyCode": 54,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "7",
+        "keyCode": 55,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "8",
+        "keyCode": 56,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "9",
+        "keyCode": 57,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "0",
+        "keyCode": 48,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "-",
+        "keyCode": 45,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "\u003d",
+        "keyCode": 61,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "BSP",
+        "keyCode": 259,
+        "extraWidth": 20,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "TAB",
+        "keyCode": 258,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "Q",
+        "keyCode": 81,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "W",
+        "keyCode": 87,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "E",
+        "keyCode": 69,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "R",
+        "keyCode": 82,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "T",
+        "keyCode": 84,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "Y",
+        "keyCode": 89,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "U",
+        "keyCode": 85,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "I",
+        "keyCode": 73,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "O",
+        "keyCode": 79,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "P",
+        "keyCode": 80,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "[",
+        "keyCode": 91,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "]",
+        "keyCode": 93,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "\\",
+        "keyCode": 92,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "CAP",
+        "keyCode": 280,
+        "extraWidth": 19,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "A",
+        "keyCode": 65,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "S",
+        "keyCode": 83,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "D",
+        "keyCode": 68,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "F",
+        "keyCode": 70,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "G",
+        "keyCode": 71,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "H",
+        "keyCode": 72,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "J",
+        "keyCode": 74,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "K",
+        "keyCode": 75,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "L",
+        "keyCode": 76,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": ";",
+        "keyCode": 59,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "\u0027",
+        "keyCode": 39,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "ENT",
+        "keyCode": 257,
+        "extraWidth": 19,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "LSH",
+        "keyCode": 340,
+        "extraWidth": 28,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "Z",
+        "keyCode": 90,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "X",
+        "keyCode": 88,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "C",
+        "keyCode": 67,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "V",
+        "keyCode": 86,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "B",
+        "keyCode": 66,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "N",
+        "keyCode": 78,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "M",
+        "keyCode": 77,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": ",",
+        "keyCode": 44,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": ".",
+        "keyCode": 46,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "/",
+        "keyCode": 47,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "RSH",
+        "keyCode": 344,
+        "extraWidth": 28,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "LCT",
+        "keyCode": 341,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "LWN",
+        "keyCode": 343,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": false,
+        "mouse": false
+      },
+      {
+        "text": "LAL",
+        "keyCode": 342,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "SPC",
+        "keyCode": 32,
+        "extraWidth": 58,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "RAL",
+        "keyCode": 346,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "RWN",
+        "keyCode": 347,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": false,
+        "mouse": false
+      },
+      {
+        "text": "MNU",
+        "keyCode": 348,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "RCT",
+        "keyCode": 345,
+        "extraWidth": 10,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ]
+  ],
+  "extra": [
+    [
+      {
+        "text": "INS",
+        "keyCode": 260,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "HME",
+        "keyCode": 268,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "PGU",
+        "keyCode": 266,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "DEL",
+        "keyCode": 261,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "END",
+        "keyCode": 269,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "PGD",
+        "keyCode": 267,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "\u003c",
+        "keyCode": 263,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "^",
+        "keyCode": 265,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "v",
+        "keyCode": 264,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "\u003e",
+        "keyCode": 262,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ]
+  ],
+  "mouse": [
+    [
+      {
+        "text": "ML",
+        "keyCode": 0,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "MM",
+        "keyCode": 2,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "MR",
+        "keyCode": 1,
+        "extraWidth": 6,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ]
+  ],
+  "numpad": [
+    [
+      {
+        "text": "NM",
+        "keyCode": 282,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "/",
+        "keyCode": 331,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "*",
+        "keyCode": 332,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "-",
+        "keyCode": 3333,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "7",
+        "keyCode": 327,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "8",
+        "keyCode": 328,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "9",
+        "keyCode": 329,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "+",
+        "keyCode": 334,
+        "extraWidth": 0,
+        "extraHeight": 18,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "4",
+        "keyCode": 324,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "5",
+        "keyCode": 325,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "6",
+        "keyCode": 326,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "1",
+        "keyCode": 321,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "2",
+        "keyCode": 322,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "3",
+        "keyCode": 323,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": "EN",
+        "keyCode": 335,
+        "extraWidth": 0,
+        "extraHeight": 18,
+        "enabled": true,
+        "mouse": false
+      }
+    ],
+    [
+      {
+        "text": "0",
+        "keyCode": 320,
+        "extraWidth": 18,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      },
+      {
+        "text": ".",
+        "keyCode": 330,
+        "extraWidth": 0,
+        "extraHeight": 0,
+        "enabled": true,
+        "mouse": false
+      }
+    ]
+  ]
+}

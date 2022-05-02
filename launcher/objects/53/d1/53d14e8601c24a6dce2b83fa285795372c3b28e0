@@ -1,0 +1,10 @@
+{
+  "displayType": "NEW",
+  "forceRelog": false,
+  "showDownloadScreen": true,
+  "offlineMode": false,
+  "offlineModeToggle": false,
+  "skinOptionsButton": "OFF",
+  "multiplayerButton": "LEFT",
+  "singleplayerButton": "OFF"
+}

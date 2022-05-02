@@ -1,0 +1,12 @@
+{
+  "advancednbttooltip:tooltip/bee_nest": true,
+  "advancednbttooltip:tooltip/book": true,
+  "advancednbttooltip:tooltip/command_block": true,
+  "advancednbttooltip:tooltip/compass": true,
+  "advancednbttooltip:tooltip/custom_model_data": true,
+  "advancednbttooltip:tooltip/hideflags": true,
+  "advancednbttooltip:tooltip/repair_cost": true,
+  "advancednbttooltip:tooltip/sign": true,
+  "advancednbttooltip:tooltip/spawn_egg": true,
+  "advancednbttooltip:tooltip/suspicious_stew": true
+}

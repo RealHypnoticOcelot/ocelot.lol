@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "core": {
+    "maxLockTime": 500,
+    "defaultProfile": "default",
+    "profiles": {
+      "default": [
+        {
+          "triggerType": "EVENT",
+          "event": "ProfileLoad",
+          "scriptFile": "index.js",
+          "enabled": true
+        }
+      ]
+    },
+    "services": {},
+    "extraJsOptions": {}
+  },
+  "client": {
+    "sortMethod": "Enabled",
+    "disableKeyWhenScreenOpen": true,
+    "editorLinterOverrides": {},
+    "editorHistorySize": 20,
+    "editorSuggestions": true,
+    "editorFont": "jsmacros:jetbrainsmono",
+    "externalEditor": false,
+    "externalEditorCommand": "code %MacroFolder %File"
+  }
+}

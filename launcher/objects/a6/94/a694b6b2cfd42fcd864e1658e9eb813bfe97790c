@@ -1,0 +1,9 @@
+{
+  "replaceKeybindScreen": false,
+  "malilibSupport": true,
+  "keybindNameOnHover": true,
+  "keybindKeyOnHover": true,
+  "keyButtonModName": true,
+  "keyButtonMalilibKeybinds": true,
+  "debug": false
+}

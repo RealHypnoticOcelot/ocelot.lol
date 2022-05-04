@@ -9,6 +9,10 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+body {
+  overflow: hidden;
+}
+
 @font-face {
   font-family: "Mukta";
   font-style: normal;

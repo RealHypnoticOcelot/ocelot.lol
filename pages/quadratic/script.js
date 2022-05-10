@@ -8,12 +8,14 @@ function get() {
     console.log(num2 + " to " + negativeb)
     if (Math.sign(num2) === -1) {
       const bsquared = Math.pow(negativeb,2)
-      console.log(bsquared)
+      console.log("b squared is " + bsquared)
     }
     else {
       const bsquared = Math.pow(num2,2)
-      console.log(bsquared)
+      console.log("b squared is " + bsquared)
     }
+    const negativefourac = -4 * num1 * num3
+    console.log("-4ac = " + negativefourac)
 }
 
 // Get the input field

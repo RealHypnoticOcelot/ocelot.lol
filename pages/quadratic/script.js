@@ -5,7 +5,15 @@ function get() {
     const output = document.querySelector('#output');
     
     const negativeb = ~num2 + 1
-    console.log(num2 + "to " + negativeb)
+    console.log(num2 + " to " + negativeb)
+    if (Math.sign(num2) === -1) {
+      const bsquared = Math.pow(negativeb,2)
+      console.log(bsquared)
+    }
+    else {
+      const bsquared = Math.pow(num2,2)
+      console.log(bsquared)
+    }
 }
 
 // Get the input field

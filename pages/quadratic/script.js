@@ -6,14 +6,8 @@ function get() {
     
     const negativeb = ~num2 + 1
     console.log(num2 + " to " + negativeb)
-    if (Math.sign(num2) === -1) {
-      const bsquared = Math.pow(negativeb,2)
-      console.log("b squared is " + bsquared)
-    }
-    else {
-      const bsquared = Math.pow(num2,2)
-      console.log("b squared is " + bsquared)
-    }
+    const bsquared = Math.pow(Math.abs(num2),2)
+    console.log("b squared is " + bsquared)
     const negativefourac = -4 * num1 * num3
     console.log("-4ac = " + negativefourac)
     const sqrt = negativefourac + bsquared

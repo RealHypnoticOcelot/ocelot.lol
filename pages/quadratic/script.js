@@ -11,7 +11,11 @@ function get() {
     const negativefourac = -4 * num1 * num3
     console.log("-4ac = " + negativefourac)
     const sqrt = negativefourac + bsquared
-    console.log("number to square root is" + sqrt)
+    console.log("number to square root is " + sqrt)
+    const numsqrt = Math.sqrt(sqrt)
+    if (numsqrt.toString.indexOf(".") == -1) {
+      output.innerHTML = (negativeb + " ± " + "√" + numsqrt + "<br>" + num1*2);
+    }
 }
 
 // Get the input field

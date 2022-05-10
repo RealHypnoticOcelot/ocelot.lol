@@ -3,24 +3,9 @@ function get() {
     const num2 = +document.querySelector('#b').value;
     const num3 = +document.querySelector('#c').value;
     const output = document.querySelector('#output');
-    const multTarget = num1 * num3;
-    const addTarget = num2;
-
-    const absMult = Math.abs(multTarget);
-
-for (let num1 = -absMult; num1 <= absMult; num1++) {
-
-  for (let num2 = -absMult; num2 <= absMult; num2++) {
     
-    if (
-      (num1 * num2 === multTarget) 
-      && (num1 + num2 === addTarget)
-    ) {
-      output.innerHTML = ([ num1 + ", " + num2 ]);
-    }
-
-  }
-}
+    const negativeb = ~num2 + 1
+    console.log(num2 + "to " + negativeb)
 }
 
 // Get the input field

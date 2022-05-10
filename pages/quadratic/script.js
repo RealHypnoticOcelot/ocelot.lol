@@ -13,7 +13,7 @@ function get() {
     const sqrt = negativefourac + bsquared
     console.log("number to square root is " + sqrt)
     const numsqrt = Math.sqrt(sqrt)
-    if (numsqrt.toString.indexOf(".") == -1) {
+    if (math.floor(numsqrt) === numsqrt) {
       output.innerHTML = (negativeb + " ± " + "√" + numsqrt + "<br>" + num1*2);
     }
 }

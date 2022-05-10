@@ -16,6 +16,8 @@ function get() {
     }
     const negativefourac = -4 * num1 * num3
     console.log("-4ac = " + negativefourac)
+    const sqrt = negativefourac + bsquared
+    console.log("number to square root is" + sqrt)
 }
 
 // Get the input field

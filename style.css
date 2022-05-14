@@ -336,23 +336,11 @@ ul.topnav {
   justify-content: space-evenly;
 }
 
-.bordered-mobile {
-  filter:drop-shadow(none);
-  transition: 0.2s;
-  border-radius: 20px;
-  margin: 10px;
-  aspect-ratio: 2 / 1;
-  width: 100%
-}
-
-.bordered-mobile:hover {
-  filter: brightness(110%);
-  cursor: alias;
-  transform: translateX(-41%);
-  transform: scale(1.01)
-}
-
 .mobile { 
+  transition: 0.2s;
+}
+
+.bordered-mobile {
   transition: 0.2s;
 }
 @media screen and (max-width: 1000px) {
@@ -369,6 +357,22 @@ ul.topnav {
   .mobile:hover {
     cursor: pointer;
     border-radius: 12px;
+    transform: scale(1.01)
+  }
+
+  .bordered-mobile {
+    filter:drop-shadow(none);
+    transition: 0.2s;
+    border-radius: 20px;
+    margin: 10px;
+    aspect-ratio: 2 / 1;
+    width: 100%
+  }
+  
+  .bordered-mobile:hover {
+    filter: brightness(110%);
+    cursor: alias;
+    transform: translateX(-41%);
     transform: scale(1.01)
   }
 }

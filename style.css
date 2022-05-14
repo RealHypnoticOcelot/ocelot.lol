@@ -339,10 +339,6 @@ ul.topnav {
 .mobile { 
   transition: 0.2s;
 }
-
-.bordered-mobile {
-  transition: 0.2s;
-}
 @media screen and (max-width: 1000px) {
   .mobile {
     border-radius: 3px;
@@ -360,7 +356,7 @@ ul.topnav {
     transform: scale(1.01)
   }
 
-  .bordered-mobile {
+  .bordered {
     filter:drop-shadow(none);
     transition: 0.2s;
     border-radius: 20px;
@@ -369,7 +365,7 @@ ul.topnav {
     width: 100%
   }
   
-  .bordered-mobile:hover {
+  .bordered:hover {
     filter: brightness(110%);
     cursor: alias;
     transform: translateX(-41%);

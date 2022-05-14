@@ -352,18 +352,23 @@ ul.topnav {
   transform: scale(1.01)
 }
 
-.mobile {
-  border-radius: 3px;
-  position: relative;
-  width: 90%;
-  padding: 5px 10px 5px 10px;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-  left: 5%;
+.mobile { 
+  transition: 0.2s;
 }
-
-.mobile:hover {
-  cursor: pointer;
-  border-radius: 12px;
-  transform: scale(1.01)
+@media screen and (max-width: 1000px) {
+  .mobile {
+    border-radius: 3px;
+    position: relative;
+    width: 90%;
+    padding: 5px 10px 5px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    left: 5%;
+  }
+  
+  .mobile:hover {
+    cursor: pointer;
+    border-radius: 12px;
+    transform: scale(1.01)
+  }
 }

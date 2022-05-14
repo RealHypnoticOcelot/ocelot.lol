@@ -23,26 +23,38 @@
 	        If you're launching through MultiMC and it's crashing, make sure your Java is up to date. More information: <a target="_blank" href="https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java">https://github.com/MultiMC/Launcher/wiki/Using-the-right-Java</a>
 			<br><br>
 			If you're launching through the official Minecraft launcher, install Fabric at <a target="_blank" href="https://fabricmc.net/">https://fabricmc.net/</a>.
-			<br><img src="/settings.png" style="width: 50%" class="center-image settings"><br>
+			<br><img src="/settings.png" class="center-image settings"><br>
 			Once you have the correct version of Fabric installed, copy over the <code>options</code> and <code>option.amecsapi</code> files to <a target="_blank" href="https://minecrafthopper.net/help/finding-minecraft-data-folder/">your Minecraft folder</a>. Do the same with the <code>mods</code> and <code>config</code> folder if you don't already have a folder with that name there.
 			<br><br>
 			If you do already have a <code>mods</code> and <code>config</code> folder, then merge the existing <code>config</code> folder with the new <code>config</code> folder.<br>Then, check your <code>mods</code> folder. If it's empty, then just replace it with the new mods folder. If it has files within it, create a sub-folder within, and move the files there. Then, merge the new and old <code>mods</code> folder. When you launch your Fabric instance, the mods should be loaded and configured!
 			<br><br><br>
 			If you are using MultiMC, the process is basically the same. Click on "Edit Instance", and if you haven't already, install Fabric onto the instance.
-			<br><img src="/editinstance.png" style="width: 30%" class="center-image eighty"><br>
+			<br><img src="/editinstance.png" class="center-image edit"><br>
 			Once you've configured that, click on "Open .minecraft", and then just copy the folders and files in, like how you would normally.
-			<br><img src="/opendotminecraft.png" style="width: 40%" class="center-image eighty"><br>
+			<br><img src="/opendotminecraft.png" class="center-image opendot"><br>
 	        </p>
             </div>
         </div>
 	</div>
 
 	<style>
+		.settings {
+			width: 50%;
+		}
+		.edit {
+			width: 30%;
+		}
+		.opendot {
+			width: 40%;
+		}
 	@media screen and (max-width: 1000px) {
 		.settings {
 			width: 100%;
 		}
-		.eighty {
+		.edit {
+			width: 80%;
+		}
+		.opendot {
 			width: 80%;
 		}
 	}

@@ -138,3 +138,10 @@ form input:focus {
     justify-content: center;
     padding: 10px;
 }
+
+/* Disable Scrollbar */
+html {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

@@ -125,3 +125,15 @@ form input:focus {
     border: 2px solid rgba(253, 253, 253, 0.514);
     border-radius: 6px;
 }
+
+.pbtn {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btnflex{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}

@@ -15,13 +15,22 @@
 
 body {
     margin: 0;
-    background: #111;
+    background: #000;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     animation: fadeInAnimation ease-in-out 0.3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .fa-magnifying-glass {
@@ -38,6 +47,11 @@ body {
 
 .logo {
     width: 150px;
+    transition: 0.2s;
+}
+
+.logo:hover {
+    filter:brightness(110%)
 }
 
 .logo-wrapper .text {
@@ -96,7 +110,7 @@ form input {
     font-family: inherit;
     padding: 0px 17px;
     height: 48px;
-    border: 1px solid rgb(255, 255, 255, .2);
+    border: 2px solid rgb(255, 255, 255, .2);
     color: var(--text-color);
     border-radius: 3px;
     outline: none;
@@ -104,12 +118,10 @@ form input {
     margin-top: 5px;
     border-radius: 50px;
     color: #FFF;
+    transition: 0.1s;
 }
 
 form input:focus {
-    border: 1px solid rgba(253, 253, 253, 0.514);
+    border: 2px solid rgba(253, 253, 253, 0.514);
     border-radius: 6px;
-    animation: fadeInAnimation ease-in-out 0.3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }

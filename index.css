@@ -141,7 +141,6 @@ form input:focus {
 
 /* Disable Scrollbar */
 html {
-    overflow-y: scroll;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }

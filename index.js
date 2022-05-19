@@ -53,9 +53,10 @@ function proxy_spotify() {
 function proxy_btn() {
     let link =  event.target.getAttribute('link')
     const form = document.querySelector('#forminput')
+    const formform = document.querySelector('#form')
     form.value = link
     form.focus()
-    setTimeout(() => {  document.forms[0].submit(); }, 100);
+    formform.submit()
 }
 
 function isUrl(val = ''){

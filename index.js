@@ -56,7 +56,6 @@ function proxy_btn() {
     const formform = document.querySelector('#form')
     form.value = link
     form.focus()
-    setTimeout(() => {  formform.submit() }, 100);
 }
 
 function isUrl(val = ''){

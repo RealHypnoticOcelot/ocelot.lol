@@ -132,6 +132,10 @@ form input:focus {
     margin: 5px;
 }
 
+.pbtn:hover {
+    cursor: pointer;
+}
+
 .btnflex{
     display: flex;
     align-content: center;

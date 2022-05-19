@@ -51,7 +51,7 @@ function proxy_spotify() {
 }
 
 function proxy_test() {
-    let link = proxy_test.caller.getAttribute('link')
+    let link =  event.target.getAttribute('link')
     const form = document.querySelector('#form')
     form.value = link
     document.forms[0].submit()

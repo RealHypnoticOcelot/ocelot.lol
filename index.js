@@ -50,6 +50,13 @@ function proxy_spotify() {
     window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 }
 
+function proxy_test() {
+    let link = this.getAttribute('link')
+    const form = document.querySelector('#form')
+    form.value = link
+    document.forms[0].submit()
+}
+
 function isUrl(val = ''){
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
     return false;

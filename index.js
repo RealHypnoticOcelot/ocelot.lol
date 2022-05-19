@@ -50,12 +50,42 @@ function proxy_spotify() {
     window.location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 }
 
-function proxy_test() {
+function proxy_btn() {
     let link =  event.target.getAttribute('link')
     const form = document.querySelector('#form')
     form.value = link
     document.forms[0].submit()
+    form.focus()
+    enterfun()
+    form.dispatchEvent(enter)
 }
+
+function enterfun() {
+    
+    var enter = new KeyboardEvent('keydown', {altKey:false,
+      bubbles: true,
+      cancelBubble: false, 
+      cancelable: true,
+      charCode: 0,
+      code: "Enter",
+      composed: true,
+      ctrlKey: false,
+      currentTarget: null,
+      defaultPrevented: true,
+      detail: 0,
+      eventPhase: 0,
+      isComposing: false,
+      isTrusted: true,
+      key: "Enter",
+      keyCode: 13,
+      location: 0,
+      metaKey: false,
+      repeat: false,
+      returnValue: false,
+      shiftKey: false,
+      type: "keydown",
+      which: 13});
+  }
 
 function isUrl(val = ''){
     if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;

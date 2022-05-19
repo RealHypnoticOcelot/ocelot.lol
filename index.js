@@ -56,9 +56,7 @@ function proxy_btn() {
     const formform = document.querySelector('#form')
     form.value = link
     form.focus()
-    form.dispatchEvent(new KeyboardEvent('keydown', {
-        'keyCode': '13'
-      }));
+    setTimeout(() => {  formform.submit() }, 100);
 }
 
 function isUrl(val = ''){

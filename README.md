@@ -18,3 +18,5 @@ https://writing.ocelot.lol/
 https://play.ocelot.lol/
 
 https://map.ocelot.lol/
+
+https://proxy.ocelot.lol/

@@ -188,18 +188,18 @@ p input {
     text-align: center;
 }
 
-.homeflex a {
+.flex a {
     text-decoration: none;
     width: 30%;
     transition: 0.2s;
 }
 
-.homeflex a:hover {
+.flex a:hover {
     transform: scale(110%);
     filter: brightness(110%);
 }
 
-.homeflex a:active {
+.flex a:active {
     transform: scale(100%);
     filter: brightness(90%);
 }

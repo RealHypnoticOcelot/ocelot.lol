@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll('.loadclass');
 const html = document.querySelector('html')
 const cornermenu = document.querySelector('.menu')
 const root = document.documentElement
-const a = document.querySelectorAll('.adddisp')
+const a = document.querySelectorAll('#adddisp')
 const homeflex = document.querySelector('.homeflex')
 
 logo.addEventListener('animationend', () => {

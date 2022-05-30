@@ -268,7 +268,7 @@ background-color: white;
     height: 10vh;
     min-height: 35px;
     max-height: 50px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 80;
     right: 0;

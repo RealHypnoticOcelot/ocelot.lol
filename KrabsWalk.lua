@@ -12,11 +12,5 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.Running.Volume = 0.5
 game.Players.LocalPlayer.Character.HumanoidRootPart.Running.SoundId = "http://www.roblox.com/asset/?id=9810879747"
 end)
 end)
-
-if game.SoundService.RespectFilteringEnabled == false then
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ts8TSAZN", 0, true))()
-notify("Sound will replicate to other players.", warn(":("))
-else
-loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ts8TSAZN", 0, true))()
-notify("Sound will not replicate to other players.", warn(":("))
-end
+notify("Sound will not play for other players.", warn(":("))

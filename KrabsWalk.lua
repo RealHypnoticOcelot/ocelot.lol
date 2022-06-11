@@ -8,7 +8,7 @@ if v.Name == "WalkAnim" or v.Name == "RunAnim" then
    end
 end
 game.Players.LocalPlayer.Character.HumanoidRootPart.Running.PlaybackSpeed = 1
-game.Players.LocalPlayer.Character.HumanoidRootPart.Running.Volume = 0.5
+game.Players.LocalPlayer.Character.HumanoidRootPart.Running.Volume = 0.7
 game.Players.LocalPlayer.Character.HumanoidRootPart.Running.SoundId = "http://www.roblox.com/asset/?id=9810879747"
 end)
 end)

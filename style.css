@@ -168,6 +168,19 @@ body {
   animation-fill-mode: forwards;
 }
 
+.kitty {
+  display: flex;
+  z-index: 10;
+  bottom: 0;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.kitty > img {
+  max-height: 343px;
+}
+
 .noselect {
   user-select: none;
 }

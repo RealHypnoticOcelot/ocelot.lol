@@ -192,7 +192,7 @@ body {
 }
 
 .kitty > img {
-  max-height: 343px;
+  max-height: 35vh;
   animation: popup ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;

@@ -126,9 +126,11 @@ body {
 
 @keyframes popup {
   0% {
+    visibility: visible;
     max-height: 35vh;
   }
   100% {
+    visibility: visible;
     max-height: 350px;
   }
 }

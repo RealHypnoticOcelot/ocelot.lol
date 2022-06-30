@@ -191,7 +191,7 @@ body {
   position: fixed;
   left: 50%;
   transform: translate(-50%, 0);
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .kitty > img {
@@ -224,7 +224,10 @@ body {
 
 @media screen and (max-height: 770px) {
   .kitty{
-    left: initial;
-    transform: initial;
+    left: 0;
+    transform: none;
+  }
+  .kitty > img {
+    max-height: 350px;
   }
 }

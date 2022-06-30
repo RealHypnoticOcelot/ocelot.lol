@@ -116,9 +116,11 @@ body {
 @keyframes popup {
   0% {
     margin-bottom: -400px;
+    visibility: visible;
   }
   100% {
     margin-bottom: 0px;
+    visibility: visible;
   }
 }
 
@@ -193,6 +195,7 @@ body {
 
 .kitty > img {
   max-height: 35vh;
+  visibility: hidden;
   animation: popup ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;

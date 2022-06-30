@@ -124,17 +124,6 @@ body {
   }
 }
 
-@keyframes resize {
-  0% {
-    visibility: visible;
-    max-height: 35vh;
-  }
-  100% {
-    visibility: visible;
-    max-height: 350px;
-  }
-}
-
 .button[disabled="disabled"] {
   background-color: #969696;
   color: #595959;
@@ -239,9 +228,6 @@ body {
     transform: none;
   }
   .kitty > img {
-    animation: resize ease 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    max-height: 350px;
   }
 }

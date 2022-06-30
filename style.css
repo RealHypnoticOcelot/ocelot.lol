@@ -177,6 +177,11 @@ body {
   animation-fill-mode: forwards;
 }
 
+.flipped {
+  min-height: 100%;
+  width: 100%;
+}
+
 .kitty {
   display: flex;
   z-index: 10;

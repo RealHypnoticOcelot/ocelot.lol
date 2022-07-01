@@ -222,7 +222,7 @@ body {
   }
 }
 
-@media screen and (max-height: 770px) {
+@media screen and (max-height: 700px) {
   .kitty{
     left: 0;
     transform: none;

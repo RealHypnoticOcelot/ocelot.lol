@@ -28,8 +28,10 @@ function button() {
 }
 
 function clipboard() {
-  navigator.clipboard.writeText(event.target.getAttribute('clip'));
-  alert("Copied to clipboard! (" + event.target.getAttribute('clip') + ")")
+  let clip = event.target.getAttribute('clip')
+  console.log(clip)
+  navigator.clipboard.writeText(clip);
+  alert("Copied to clipboard! (" + clip + ")")
 }
 
 /*/ irrelevant but this logs the ID of the key you pressed

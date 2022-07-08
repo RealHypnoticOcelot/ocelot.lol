@@ -27,6 +27,12 @@ function button() {
   }
 }
 
+function clipboard() {
+  let link =  event.target.getAttribute('clip')
+  navigator.clipboard.writeText(link.value);
+  alert("Copied to clipboard!")
+}
+
 /*/ irrelevant but this logs the ID of the key you pressed
 document.addEventListener('keydown', function(key) {
   console.log(key.which)

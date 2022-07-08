@@ -30,7 +30,7 @@ function button() {
 function clipboard() {
   let clip = event.target.getAttribute('clip')
   console.log(clip)
-  navigator.clipboard.writeText(clip.value);
+  navigator.clipboard.writeText(clip);
   alert("Copied to clipboard! (" + clip + ")")
 }
 
